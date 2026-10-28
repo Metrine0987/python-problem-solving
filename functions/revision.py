@@ -1,5 +1,6 @@
-num1 = int(input("Enter your first number: "))
-num2 = int(input("Enter your second number: "))
+number = int(input("Enter your  number: "))
 
-total = num1 + num2
-print(total)
+if number % 2 == 0:
+    print("even")
+else:
+    print("odd")
