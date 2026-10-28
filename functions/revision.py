@@ -1,8 +1,9 @@
-number = int(input("Enter your  number: "))
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
 
-if number > 0:
-    print("positive")
-elif number < 0:
-    print("negative")
+if num1 >num2:
+    print(f"{num1} is larger")
+elif num2 > num1:
+    print(f"{num2} is larger")
 else:
-    print("zero")
+    print("equal")
