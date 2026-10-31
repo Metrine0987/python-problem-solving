@@ -1,10 +1,13 @@
-class Rectangle:
-    def __init__(self,width , height):
-        self.width = width
-        self.height = height
+class Animal:
+    def __init__(self , name):
+        self.name = name
 
-    def area(self):
-        return self.width * self.height
+    def speak(self):
+        print(self.name)
 
-r1 = Rectangle(5 , 3)
-print(r1.area())
+class Dog(Animal):
+    pass
+
+d1 = Dog("Rex")
+d1.speak()
+
