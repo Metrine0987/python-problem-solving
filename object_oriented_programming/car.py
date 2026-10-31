@@ -1,9 +1,6 @@
-class Car:
-    def __init__(self , model , colour , year):
-        self.model = model
-        self.colour = colour
-        self.year = year
+from sample import Car
 
 car1 = Car("Mazda" , "white" , 2026)
 
-print(car1.model)
+car1.drive()
+car1.stop()

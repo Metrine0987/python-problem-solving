@@ -1,0 +1,3 @@
+a = "Mike"
+
+print(a)

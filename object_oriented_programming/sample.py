@@ -1,10 +1,10 @@
-class Student:
-    def __init__(self, name ,grade):
-        self.name = name
-        self.grade = grade
+class Rectangle:
+    def __init__(self,width , height):
+        self.width = width
+        self.height = height
 
-s1 = Student("Anna" , "A")
-print(s1.grade)
+    def area(self):
+        return self.width * self.height
 
-s1.grade = "B"
-print(s1.grade)
+r1 = Rectangle(5 , 3)
+print(r1.area())
