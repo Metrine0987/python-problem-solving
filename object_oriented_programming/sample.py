@@ -1,10 +1,10 @@
-class Dog:
-    def __init__(self , name , age):
-       self.name = name
-       self.age = age
+class Student:
+    def __init__(self, name ,grade):
+        self.name = name
+        self.grade = grade
 
-    def bark(self):
-       print(f"{self.name} says Woof!")
+s1 = Student("Anna" , "A")
+print(s1.grade)
 
-d1 = Dog("Buddy" , 3)
-d1.bark()
+s1.grade = "B"
+print(s1.grade)
