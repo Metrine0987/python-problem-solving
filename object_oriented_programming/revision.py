@@ -1,17 +1,9 @@
-class Cat:
-    pass
+class ScoreBoard:
+    def __init__(self , score):
+        self.__score = score
 
-    def sound(self):
-        print("Meow")
+    def get_score(self):
+        return self.__score
 
-class Fox:
-    pass
-
-    def sound(self):
-        print("Wa-pa-pa-pa-pa-pow!")
-
-c1 = Cat()
-f1 = Fox()
-
-c1.sound()
-f1.sound()
+s1 = ScoreBoard(0)
+print(s1.get_score())
