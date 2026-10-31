@@ -1,10 +1,10 @@
-class Person:
+class Dog:
     def __init__(self , name , age):
-        self.name = name
-        self.age = age
+       self.name = name
+       self.age = age
 
-    def greet(self):
-        print(f"Hello my name is {self.name} ")
+    def bark(self):
+       print(f"{self.name} says Woof!")
 
-p1 = Person("John" , 36)
-p1.greet()
+d1 = Dog("Buddy" , 3)
+d1.bark()
